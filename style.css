@@ -1,0 +1,46 @@
+body{
+    background-image: url(img/img-3.jpg);
+    /* background-position:center; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#input-container{
+    width: 30%;
+    border-radius: 20px;
+    border: 8px solid white;
+    
+}
+#input-box{
+    background-color: rgb(29, 53, 53);
+    color: white;
+}
+#button:hover{
+background-color: rgb(156, 97, 9);
+color: white;
+}
+#temparature-id{
+    font-size: 90px;
+    color: rgb(35, 36, 36);
+}
+@media only screen and (max-width: 600px) {
+    #input-container{
+    width: 60%;
+    }
+    #temparature-id{
+        font-size: 50px;
+        color: rgb(244, 248, 7);
+    }
+#weather-status{
+    color: white;
+}
+#city-name{
+    color: white;
+}
+  }
+  #error-message{
+      color: rgb(168, 8, 8);
+      font-size: 20px;
+      display: none;
+      text-align: center;
+  }
