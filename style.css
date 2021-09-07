@@ -15,6 +15,10 @@ body{
     background-color: rgb(29, 53, 53);
     color: white;
 }
+#input-box:hover{
+    background-color:white;
+    color:rgb(29, 53, 53);
+}
 #button:hover{
 background-color: rgb(156, 97, 9);
 color: white;
@@ -29,13 +33,13 @@ color: white;
     }
     #temparature-id{
         font-size: 50px;
-        color: rgb(244, 248, 7);
+        color: rgb(17, 0, 0);
     }
 #weather-status{
     color: white;
 }
 #city-name{
-    color: white;
+    color: #800000;
 }
   }
   #error-message{
@@ -43,4 +47,12 @@ color: white;
       font-size: 20px;
       display: none;
       text-align: center;
+      
+  }
+  #error-message2{
+      color: rgb(168, 8, 8);
+      font-size: 20px;
+      display: none;
+      text-align: center;
+      
   }
